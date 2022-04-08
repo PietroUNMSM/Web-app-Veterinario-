@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Perro</title>
+    <link rel="icon" type="image/x-icon" href="./images/crash icon.png">
+</head>
+
+<body>
+    <form action="Registrar_perro.php" method="GET">
+        Sistema de Identificacion Perruno</p>
+        Ingresar Codigo
+        <Input name="Codigo" Type Text>
+        </P>
+        Ingresar Nombre
+        <Input name="Nombre" Type Text>
+        </P>
+        Fecha de Nacimiento
+        <Input name="FechNac" Type="Date">
+        </P>
+        Genero
+        <Input name="Genero" Type="Radio" value="1"> Macho
+        <Input name="Genero" Type="Radio" value="0"> Hembra</P>
+        Seleccione Raza
+        <Select name="Raza">
+         <Option value = "Pitbull"> Pitbull
+         <Option value = "Bulldog"> Bulldog
+         <Option value = "Shichu"> Shichu
+         <Option value = "Pequines"> Pequines
+         <Option value = "San Bernardo"> San Bernardo
+         <Option value = "Chiguahua"> Chiguahua
+        </Select>
+        </P>
+        Subir Foto
+        <Input Type="file" name="Foto">
+        <Input name="Registrar" Type="Submit" value="Registrar">
+        <Input Type="Submit" value="Cancelar">
+        </P>
+    </form>
+</body>
+
+</html>
